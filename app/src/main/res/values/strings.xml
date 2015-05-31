@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Youtube player</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_results">\"\"</string>
+    <string name="btn_skip_first_n_seconds">\"SKIP\"</string>
+    <string name="title_activity_play_video">\"\"</string>
+    <string name="error_player">\"Error loading video:\"</string>
+    <string name="developer_key">\"AIzaSyDGjFLYDZRaUbbhpnEZ-UTJXZm5lQuiZhI\"</string>
+    <string name="title_activity_landscape">Landscape</string>
+</resources>

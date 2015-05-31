@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.example.tbr666.videoloader3"
+        minSdkVersion 19
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'net.sourceforge.htmlcleaner:htmlcleaner:2.10'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile files('libs/com.fasterxml.jackson.core.jar')
+    compile files('libs/google-api-client-1.20.0.jar')
+    compile files('libs/google-api-client-extensions-1.6.0-beta.jar')
+    compile files('libs/google-api-client-servlet-1.20.0.jar')
+    compile files('libs/google-oauth-client-jetty-1.16.0-rc.jar')
+    compile files('libs/google-oauth-client-java6-1.16.0-rc.jar')
+    compile files('libs/google-oauth-client-1.16.0-rc.jar')
+    compile files('libs/google-http-client-1.20.0.jar')
+    compile files('libs/google-http-client-jackson2-1.16.0-rc.jar')
+    compile files('libs/google-api-services-youtube-v3-rev68-1.16.0-rc.jar')
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+}
